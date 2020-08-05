@@ -126,11 +126,28 @@ h6 {
             <br>
             <center>
                 <div class="row">
+                    <?php
+                    if(date("H")<10 && date("H") > 6){
+                    ?>
                     <div class="col-lg-6 col-sm-12">
                         <input
                             style="   background-color: #4CAF50; border: none; border-radius: 12px; padding: 12px; width: 120px;"
                             type="submit" name="submit" class="fadeIn fourth" value="Check In">
                     </div>
+                    <?php
+                } else if (date("H") < 6){ ?>
+                    <div class="col-lg-6 col-sm-12">
+                            <p class ="font-weight-bold text-danger" > Jam Check In Belum Dimulai </p>
+                    </div>
+                <?php
+                } else{
+?>                        <div class="col-lg-6 col-sm-12">
+                            <p class ="font-weight-bold text-danger" > Jam Check In Telah Berakhir </p>
+                    </div>
+            <?php
+                }
+                    ?>
+                
                     <div class="col-lg-6 col-sm-12">
 
 
@@ -152,9 +169,22 @@ h6 {
             <center>
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
+                        <?php 
+                            if(date("H") >= 16 ){
+
+                        ?>
                         <input
                             style="   background-color: red; border: none; border-radius: 12px; padding: 12px; width: 120px;"
                             type="submit" name="submit" class="fadeIn fourth" value="Check Out">
+                            <?php } 
+                             else{?>
+                               <div class="col-lg-6 col-sm-12">
+                            <p class ="font-weight-bold text-danger" > Jam Check Out Belum Dimulai </p>
+                    </div>
+                    
+            <?php
+                }
+                            ?>
                     </div>
                     <div class="col-lg-6 col-sm-12">
 

@@ -1,0 +1,9 @@
+RewriteEngine On
+
+Rewriterule ^dashboard_admin        admin_beranda.php [NC,L]
+Rewriterule ^dashboard              beranda.php [NC,L]
+Rewriterule ^halaman_chekin         true.php [NC,L]
+Rewriterule ^halaman_chekout        false.php [NC,L]
+Rewriterule ^index_login            index.php [NC,L]
+Rewriterule ^index_daftar           daftar.php [NC,L]
+Rewriterule ^keluar                  logout.php [NC,L]

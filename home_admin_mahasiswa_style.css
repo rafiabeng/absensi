@@ -1,0 +1,234 @@
+.copi {
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #0f3e67;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: none;
+    padding: 13px;
+    color: #000;
+}
+
+th {
+    background-color: #0c3e67;
+    color: white;
+    border: 1px solid #f1f1f1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    background-color: #3196f338;
+    border: 1px solid #f1f1f1;
+    font-family: times;
+    font-size: 17px;
+}
+
+.hover {
+    color: #fff !important;
+    background-color: #0c3e67 !important;
+    width: 100%;
+    height: 50px;
+    text-align: start;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+}
+
+.delete {
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    font-family: times;
+    color: #f1f1f1;
+    background-color: #0c3e67;
+}
+
+.update {
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    font-family: times;
+    color: #f1f1f1;
+    background-color: #0c3e67;
+}
+
+.add {
+    padding: 15px;
+    width: 150px;
+    height: 40px;
+    font-family: times;
+    color: #f1f1f1;
+    background-color: #3196f3;
+}
+
+.log {
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: #3196f338;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #c1dbf0 !important;
+}
+
+.se {
+    color: black;
+    margin: 3px;
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    margin: -2px;
+}
+
+.w3-text-teal,
+.w3-hover-text-teal:hover {
+    color: #01ffe7 !important;
+    /* font-family: impact; */
+}
+
+img {
+    width: 15px;
+}
+
+.w3-bar-block .w3-bar-item {
+    /* width: 100%; */
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.w3-container,
+.w3-panel {
+    padding: 0.01em 16px;
+    background-color: #0f3e67;
+}
+
+.w3-padding-16 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.w3-bar-item,
+.w3-button,
+.w3-padding {
+    color: white;
+}
+
+li {
+    color: #6ff9e0;
+    margin-top: 10px;
+}
+
+.fa .fa-envelope,
+.fa-fw,
+.w3-margin-right {
+    color: #6ff9e0;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+input[type="text"] {
+    width: 220px;
+    height: 47px;
+    border-radius: 10px;
+    border: none;
+    background-color: #072a4a;
+    color: #fdfdfd;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.cariin {
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: #c1dcf0;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    white-space: nowrap;
+    font-family: times;
+    font-size: 18px;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-family: times;
+    font-size: 18px;
+    margin: 8px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    font-family: times;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #0f3e67;
+    font-family: times;
+    border: none;
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+    content: "\f0c9";
+    color: #0f3e67;
+}
